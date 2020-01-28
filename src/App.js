@@ -2,26 +2,24 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import forDev from "./for_dev.jpg";
-import forStartup from "./for_startup.jpg";
+import forDev from './images/for_dev.jpg';
+import forStartup from './images/for_startup.jpg';
 
 function App() {
   return (
     <>
       <main>
-        <div>
-          <nav className="navbar navbar-dark bg-dark d-flex p-4">
-            <div className="mr-auto">
-              <a href="/" className="navbar-brand" style={{ fontSize: '1.6rem', fontWeight: 600 }}>WhiteNodes</a>
-            </div>
-            <div className="">
-              <a href="#about" className="navbar-brand">About</a>
-              <a href="#pricing" className="navbar-brand">Pricing</a>
-            </div>
-          </nav>
-        </div>
-        <div className="jumbotron jumbotron-fluid bg-dark mb-0">
-          <div className="container m-5 p-5 text-center">
+        <nav className="navbar navbar-dark fixed-top d-flex p-4" style={{ backgroundColor: 'black' }}>
+          <div className="mr-auto">
+            <a href="/" className="navbar-brand" style={{ fontSize: '1.6rem', fontWeight: 600 }}>WhiteNodes</a>
+          </div>
+          <div className="">
+            <a href="#about" className="navbar-brand">About</a>
+            <a href="#pricing" className="navbar-brand">Pricing</a>
+          </div>
+        </nav>
+        <div className="jumbotron jumbotron-fluid mb-0" style={{ backgroundColor: 'black', marginTop: 96 }}>
+          <div className="m-5 p-5 text-center">
             <h1 className="display-4" style={{ fontSize: '3.5rem', color: 'white' }}>The fastest and easiest way to run your own Ethereum node.</h1>
           </div>
         </div>
@@ -65,13 +63,11 @@ function App() {
                 <div className="card-body">
                   <h3 className="card-title">Team</h3>
                   <div className="card-text">
-                    <h5>EUR 200/mo</h5>
+                    <h5>200 EUR/mo</h5>
                     <ul className="text-left">
                       <li>Ethereum Mainnet node</li>
                       <li>1,000,000 Requests/Day</li>
-                      <li>Community Support Forum</li>
-                      <li>Direct Customer Support</li>
-                      <li>24hr Support Response Time</li>
+                      <li>Customer Support</li>
                     </ul>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                       <input type="hidden" name="cmd" value="_s-xclick" />
@@ -86,9 +82,9 @@ function App() {
           </div>
         </div>
       </main>
-      <footer className="pt-4 pb-4">
+      <footer className="pt-4 pb-4 bg-dark">
         <div className="container">
-          <span className="text-muted">© 2020 WhiteNodes.</span>
+          <span className="text-white">© 2020 WhiteNodes</span>
         </div>
       </footer>
     </>
