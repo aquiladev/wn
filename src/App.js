@@ -63,7 +63,7 @@ function App() {
                 <div className="card-body">
                   <h3 className="card-title">Team</h3>
                   <div className="card-text">
-                    <h5>200 EUR/mo</h5>
+                    <h5>1 EUR/mo</h5>
                     <ul className="text-left">
                       <li>Ethereum Mainnet node</li>
                       <li>1,000,000 Requests/Day</li>
@@ -87,7 +87,7 @@ function App() {
                       }}>
                         <img src="https://static.liqpay.ua/buttons/logo-small.png" name="btn_text" alt=""
                           style={{ marginRight: '7px', verticalAlign: 'middle' }} />
-                        <span style={{ verticalAlign: 'middle' }}>Buy now</span>
+                        <span style={{ verticalAlign: 'middle' }}>Subscribe</span>
                       </button>
                     </form>
                   </div>
