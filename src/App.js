@@ -61,7 +61,7 @@ function App() {
             <div className="d-flex justify-content-center text-center">
               <div className="card" style={{ width: '18rem' }}>
                 <div className="card-body">
-                  <h3 className="card-title">Team</h3>
+                  <h3 className="card-title">Team Subscription</h3>
                   <div className="card-text">
                     <h5>1 EUR/mo</h5>
                     <ul className="text-left">
@@ -70,8 +70,8 @@ function App() {
                       <li>Customer Support</li>
                     </ul>
                     <form method="POST" acceptCharset="utf-8" action="https://www.liqpay.ua/api/3/checkout">
-                      <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTk4MTk4OTg0NDQ1IiwiYW1vdW50IjoiMSIsImN1cnJlbmN5IjoiRVVSIiwiZGVzY3JpcHRpb24iOiJUZWFtIFN1YnNjcmlwdGlvbiIsInR5cGUiOiJidXkiLCJsYW5ndWFnZSI6ImVuIiwic3Vic2NyaWJlIjoxLCJzdWJzY3JpYmVfZGF0ZV9zdGFydCI6Im5vdyIsInN1YnNjcmliZV9wZXJpb2RpY2l0eSI6Im1vbnRoIn0=" />
-                      <input type="hidden" name="signature" value="EZx6ujxcP9e9fNei9Oh8/9bFPx8=" />
+                      <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pMTEzNzMxNTU2NDYiLCJhbW91bnQiOiIxIiwiY3VycmVuY3kiOiJFVVIiLCJkZXNjcmlwdGlvbiI6IlRlc3QgVGVhbSBTdWJzY3JpcHRpb24iLCJ0eXBlIjoiYnV5IiwibGFuZ3VhZ2UiOiJlbiIsInN1YnNjcmliZSI6MSwic3Vic2NyaWJlX2RhdGVfc3RhcnQiOiJub3ciLCJzdWJzY3JpYmVfcGVyaW9kaWNpdHkiOiJtb250aCJ9" />
+                      <input type="hidden" name="signature" value="GiKfjJpe50u/IY4kZ6lqN9j1Hwg=" />
                       <button style={{
                         border: 'none',
                         display: 'inline-block',
@@ -85,8 +85,6 @@ function App() {
                         borderRadius: '2px',
                         background: 'rgb(122,183,43)'
                       }}>
-                        <img src="https://static.liqpay.ua/buttons/logo-small.png" name="btn_text" alt=""
-                          style={{ marginRight: '7px', verticalAlign: 'middle' }} />
                         <span style={{ verticalAlign: 'middle' }}>Subscribe</span>
                       </button>
                     </form>
