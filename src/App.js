@@ -69,11 +69,26 @@ function App() {
                       <li>1,000,000 Requests/Day</li>
                       <li>Customer Support</li>
                     </ul>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input type="hidden" name="hosted_button_id" value="S3LNXC93UD6Y4" />
-                      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" />
-                      <img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1" />
+                    <form method="POST" acceptCharset="utf-8" action="https://www.liqpay.ua/api/3/checkout">
+                      <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTk4MTk4OTg0NDQ1IiwiYW1vdW50IjoiMSIsImN1cnJlbmN5IjoiRVVSIiwiZGVzY3JpcHRpb24iOiJUZWFtIFN1YnNjcmlwdGlvbiIsInR5cGUiOiJidXkiLCJsYW5ndWFnZSI6ImVuIiwic3Vic2NyaWJlIjoxLCJzdWJzY3JpYmVfZGF0ZV9zdGFydCI6Im5vdyIsInN1YnNjcmliZV9wZXJpb2RpY2l0eSI6Im1vbnRoIn0=" />
+                      <input type="hidden" name="signature" value="EZx6ujxcP9e9fNei9Oh8/9bFPx8=" />
+                      <button style={{
+                        border: 'none',
+                        display: 'inline-block',
+                        textAlign: 'center',
+                        padding: '7px 20px',
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        fontFamily: 'OpenSans, sans-serif',
+                        cursor: 'pointer',
+                        borderRadius: '2px',
+                        background: 'rgb(122,183,43)'
+                      }}>
+                        <img src="https://static.liqpay.ua/buttons/logo-small.png" name="btn_text" alt=""
+                          style={{ marginRight: '7px', verticalAlign: 'middle' }} />
+                        <span style={{ verticalAlign: 'middle' }}>Buy now</span>
+                      </button>
                     </form>
                   </div>
                 </div>
