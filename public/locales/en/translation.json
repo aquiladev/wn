@@ -1,0 +1,31 @@
+{
+  "title": "WhiteNodes",
+  "menu": {
+    "about": "About",
+    "pricing": "Pricing"
+  },
+  "header": "The fastest and easiest way to run your own Ethereum node.",
+  "about": {
+    "title": "Your access to the Ethereum network",
+    "subtitle": "WhiteNodes infrastructure will ensure your decentralized application scales to meet your user demand.",
+    "target1": {
+      "title": "Built for developers",
+      "subtitle": "Connect your app immediately with our instant access APIs. We support JSON-RPC over HTTPS and WebSocket interfaces, providing request and subscription-based connections."
+    },
+    "target2": {
+      "title": "Built for startups",
+      "subtitle": "Use a robust solution for your fast-growing project."
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "team_subscr":{
+      "title": "Team Subscription",
+      "price": "1 EUR/mo",
+      "p1": "Ethereum Mainnet node",
+      "p2": "1,000,000 Requests/Day",
+      "p3": "Customer Support"
+    },
+    "subscribe": "Subscribe"
+  }
+}
